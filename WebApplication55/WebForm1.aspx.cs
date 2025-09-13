@@ -12,6 +12,7 @@ namespace WebApplication55
         protected void Page_Load(object sender, EventArgs e)
         {
             txtUsername.Text = "Welcome";
+            Response.Write("Welcome i have written some code ");
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
